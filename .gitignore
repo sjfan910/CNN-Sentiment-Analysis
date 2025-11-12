@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models (large files)
+models/*.h5
+models/*.keras
+models/checkpoints/*.h5
+models/checkpoints/*.keras
+!models/.gitkeep
+!models/checkpoints/.gitkeep
+
+# Logs
+logs/*.csv
+logs/*.log
+logs/*.txt
+!logs/.gitkeep
+
+# Visualizations
+visualizations/*.png
+visualizations/*.jpg
+visualizations/*.pdf
+!visualizations/.gitkeep
+
+# TensorFlow
+*.ckpt
+*.index
+*.data-*
+*.meta
+
+# Kaggle
+.kaggle/
